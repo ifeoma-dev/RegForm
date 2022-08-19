@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Website</title>
+
+        <style>
+            body{
+                margin:0;
+            }
+            .container{
+                position:relative;
+            }
+            .hdrdiv{
+                width:80%;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+            .hdrtxtl{
+                display: inline-block;
+                margin:2rem;
+                margin-right: 4rem;
+                margin-left: 0;
+                font-size: 23px;
+                font-family: monospace;
+            }
+            .hdrtxtr{
+                display: inline-block;
+                font-size: 23px;
+                font-family: monospace;
+                margin:2rem;
+                margin-left: 4rem;
+                margin-right: 0;
+            }
+            .hdr2div{
+                width:100%;
+                height:2.5rem;
+                background-color: #201d1d;
+                color:#ffffff;
+                font-family:monospace;
+                font-size:18px;
+                padding-top: 1rem;
+            }
+            .hdr2txt{
+                margin-right: 4rem;
+                display: inline-block;
+            }
+            #webimg{
+                width:60%;
+                height:608px;
+            }
+            .toph1{
+                position: absolute;
+                left:65%;
+                text-align: center;
+                right:10%;
+                top:-4rem;
+            }
+            #topicon{
+                position: absolute;
+                left:86%;
+                top:8rem;
+            }
+            fieldset{
+                position: absolute;
+                border:none;
+                border-left:2px solid #b439bb;
+                border-bottom: 2px solid #b439bb;
+                left:65%;
+                right:5%;
+                font-size: 22px;
+                font-family: monospace;
+                top:12rem;
+            }
+            label{
+                display: block;
+                margin: 2rem;
+            }
+            input{
+                width: 100%;
+            }
+            hr{
+                border: .5px solid #b439bb;
+                width:80%;
+            }
+            h1{
+                margin:8rem 0;
+                margin-left:10%;
+                font-size: 54px;
+                font-family: monospace;
+            }
+            .icons{
+                display:inline-block;
+                margin-right:2rem;
+                margin-top: 5rem;
+            }
+            #icon{
+                width: 40px;
+                height: 40px;
+            }
+            #icon2{
+                width:70px;
+                height:70px;
+            }
+            .icontoptxt{
+                margin-left:5rem;
+                margin-top:0rem;
+            }
+            .iconhdrl{
+                position: absolute;
+                left:10%;
+                right:75%;
+            }
+            .icontxtl{
+                position: absolute;
+                left:10%;
+                right:75%;
+                text-align: center;
+                margin-top: 6rem;
+                font-size: 20px;
+            }
+            .iconhdrm{
+                position: absolute;
+                margin-top: 1rem;
+                left:44%;
+                right:40%;
+            }
+            .icontxtm{
+                position: absolute;
+                left:44.5%;
+                right:40.5%;
+                text-align: center;
+                margin-top: 6rem;
+                font-size: 20px;
+            }
+            .iconhdrr{
+                position: absolute;
+                left:75%;
+                right:10%;
+            }
+            .icontxtr{
+                position:absolute;
+                left:76%;
+                right:9%;
+                text-align: center;
+                margin-top: 6rem;
+                font-size: 20px;
+            }
+            .block{
+                display: inline-block;
+                width:252.8px;
+                height:200px;
+                margin-right:4rem;
+                margin-top: 4rem;
+            }
+            #purple{
+                background-color: #b439bb;
+            }
+            #black{
+                background-color: #201d1d;
+            }
+            .button-link{
+                padding:10px 20px;
+                background-color: #b439bb;
+                color: #ffffff;
+                border-radius: 2px;
+            }
+            a:hover{
+                color:#201d1d;
+                text-decoration:none;
+            }
+            img[alt=copyright]{
+                width:10px;
+                height:10px;
+            }
+            footer{
+                font-size: 18px;
+                text-align: center;
+                padding-top: 5rem;
+            }
+        </style>
+        <body>
+                <div class="hdrdiv">
+                    <div class="hdrtxtl">Browse</div>
+                    <div class="hdrtxtl">Roadmap</div>
+                    <div class="hdrtxtl">Explore</div>
+                    <div class="hdrtxtr" style="margin-left:18rem;">Log In</div>
+                    <div class="hdrtxtr">Sign Up</div>
+                    <div class="hdrtxtr">Find Projects</div>
+                </div>
+
+                <div class="hdr2div">
+                    <div style="margin-left: 20rem;" class="hdr2txt">Find</div>
+                    <div class="hdr2txt">Create</div>
+                    <div class="hdr2txt">Discover</div>
+                    <div style="margin-left:22rem; display:inline-block;">Website created by: @iliti2</div>
+                </div>
+
+            <div class="container">
+                <img id="webimg" alt="Image" src="https://img.freepik.com/free-vector/teamwork-success-office-workers-concept-business-team-ready-work-business-team-ready-succes-vector-cartoon-illustration-flat-design_1150-56221.jpg?size=626&ext=jpg&ga=GA1.2.1054316481.1660857696">
+                <h1 style="margin-left:unset" class="toph1">Get Creating With Us</h1>
+                <img id="topicon" alt="pencil icon" src="https://cdn-icons.flaticon.com/png/128/2940/premium/2940431.png?token=exp=1660934251~hmac=e06af12e45ec3bf90f414db1477f5add">
+                <form method="post">
+                    <fieldset>
+                        <label>First Name: <input name="first-name" id="name" required/></label>
+                        <label>Last Name: <input name="last-name" id="last-name" required/></label>
+                        <label>Phone Number: <input name="phone-number" minlength="11" maxlength="16" /></label>
+                        <label>Email: <input type="email" name="email" id="email" required/></label>
+                        <input type="submit" value="Submit" />
+                    </fieldset>
+                </form>
+                </div>
+            </div>
+
+        <div class="icons">
+            <img id="icon" style="margin-left:33.5rem;" alt="icon" src="https://cdn-icons-png.flaticon.com/128/3917/3917517.png">
+            <img id="icon" style="margin-left: 3rem;" alt="icon" src="https://cdn-icons-png.flaticon.com/128/3914/3914393.png">
+            <img id="icon" style="margin-left:3rem;" alt="icon" src="https://cdn-icons-png.flaticon.com/128/3916/3916581.png">
+            <img id="icon" style="margin-left:3rem;" alt="icon" src="https://cdn-icons-png.flaticon.com/128/3917/3917032.png">
+            <img id="icon" style="margin-left:3rem;" alt="icon" src="https://cdn-icons-png.flaticon.com/128/3916/3916579.png">
+            <img id="icon" style="margin-left:3rem;" alt="icon" src="https://cdn-icons-png.flaticon.com/128/3917/3917574.png">
+        </div>
+        <hr>
+
+        <h1 style="margin:8rem 0; margin-left:10%; font-size:54px; font-family:monospace;">Why have a website?</h1>
+        <div class="container">
+            <img id="icon2" class="iconhdrl" alt="icon" src="https://cdn-icons-png.flaticon.com/128/4753/4753285.png">
+            <h2 class="iconhdrl icontoptxt">Increase user returns and referrals</h2>
+            <p class="icontxtl">It boosts your chances of increased returning clients who may also refer you!</p>
+            <img id="icon2" class="iconhdrm" alt="icon" src="https://cdn-icons.flaticon.com/png/128/2194/premium/2194763.png?token=exp=1660934641~hmac=bd42025e7b76ac5f20981c453f147dc6">
+            <h2 class="iconhdrm icontoptxt" style="margin-top:2rem;">Boost revenue</h2>
+            <p class="icontxtm">It's proven to increase CRM when companies have their own websites.</p>
+            <img id="icon2" class="iconhdrr" alt="icon" src="https://cdn-icons.flaticon.com/png/128/2518/premium/2518048.png?token=exp=1660934798~hmac=d3623b27558641a3f178e5e6af9510dc">
+            <h2 class="iconhdrr icontoptxt">Improve social media presence</h2>
+            <p class="icontxtr">People on social media often want to check out a business' website. Why delay yours?</p>
+        </div>
+            <hr style="margin-top:29rem;">
+
+            <h1>We can Make it Happen.</h1>
+            <p style="color:#897b7b; margin-top:-6rem; font-size:30px; margin-left: 10%;">Gather inspiration from some of our designs:</p>
+            <div style="width:80%; margin-left: 10%; margin-right: 10%;">
+              <div class="block" id="purple"></div>
+              <div class="block" id="black"></div>
+              <div class="block" id="purple"></div>
+              <div class="block" id="black" style="margin-right:unset;"></div>
+              <!--BLOCK 2-->
+              <div class="block" id="black"></div>
+              <div class="block" id="purple"></div>
+              <div class="block" id="black"></div>
+              <div class="block" id="purple" style="margin-right:unset;"></div>
+              <!--BLOCK 3-->
+              <div class="block" id="purple"></div>
+              <div class="block" id="black"></div>
+              <div class="block" id="black"></div>
+              <div class="block" id="purple" style="margin-right:unset;"></div>
+            </div>
+              <p style="margin:6rem; text-align:center; font-size:22px;"><a target="_blank" class="button-link">View similar projects</a></p>
+              <hr>
+
+              <footer>
+                <p style="text-align:center;">By working with us, you agree to our <a target="blank" href="">terms and conditions.</a></p>
+                <div style= margin-top:2rem;>
+                    <p style="margin-bottom:-.1rem;">Accreditation: <a href="https://www.freepik.com/vectors/achieve-goals">Achieve goals vector created by jcomp - www.freepik.com</a>, <a href="https://www.flaticon.com/free-icons/copyright" title="copyright icons">Copyright icons created by deemakdaksina - Flaticon</a></p>
+                  <img style="display:inline-block;" alt="copyright" src="https://cdn-icons-png.flaticon.com/128/2658/2658057.png"> <p style="display:inline-block;">All Rights Reserved.</p>
+                </div>
+              </footer>
+        </body>
+
+
+        <!--<footer><a href="https://www.freepik.com/vectors/achieve-goals">Achieve goals vector created by jcomp - www.freepik.com</a></footer>-->
+</html>
