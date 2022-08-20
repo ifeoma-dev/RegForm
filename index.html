@@ -82,13 +82,14 @@
                 display: block;
                 margin: 2rem;
             }
-            #textbox{
+            .textbox{
                 height:30px;
                 font-size:13pt;
                 width: 100%;
                 margin-top:2px;
                 border:0;
                 border-bottom:1px solid #0a0a0a;
+                color:#b439bb;
             }
             hr{
                 border: .5px solid #b439bb;
@@ -213,10 +214,10 @@
                 <img id="topicon" alt="pencil icon" src="https://cdn-icons-png.flaticon.com/512/603/603519.png">
                 <form method="post" action="https://formspree.io/f/xjvzvnry">
                     <fieldset>
-                        <label>First Name: <input name="first-name" id="textbox" required/></label>
-                        <label>Last Name: <input name="last-name" id="textbox" required/></label>
-                        <label>Phone Number: <input name="phone-number" id="textbox" minlength="11" maxlength="16" /></label>
-                        <label>Email: <input type="email" name="email" id="textbox" required/></label>
+                        <label>First Name: <input name="first-name" class="textbox" required/></label>
+                        <label>Last Name: <input name="last-name" class="textbox" required/></label>
+                        <label>Phone Number: <input name="phone-number" class="textbox" minlength="11" maxlength="16" /></label>
+                        <label>Email: <input type="email" name="email" class="textbox" required/></label>
                         <input type="submit" value="Submit" />
                     </fieldset>
                 </form>
